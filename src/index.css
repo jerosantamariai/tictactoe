@@ -1,3 +1,56 @@
 body {
-    background-color: #3f4455;
+    background-color: grey;
+}
+
+.container{
+    background-color: white;
+    height: 100px;
+}
+
+.container .header {
+    background-color: white;
+    height: 100px;
+}
+
+.container .header h1{
+    text-align: center;
+}
+
+.container .gamespace{
+    background-color: black;
+    width: 450px;
+    height: 450px;
+    margin: 20px auto;
+}
+
+.container .rowone{
+    background-color: black;
+    display: inline;
+    
+}
+
+.container .rowone .onefour{
+    background-color: tomato;
+    width: 200px;
+    height: 33%;
+    margin-left: -15px;
+    float: left;
+}
+
+.container .rowone .onefive{
+    background-color: blueviolet;
+    width: 200px;
+    height: 33%;
+    margin-left: -15px;
+    float: inherit;
+    
+}
+
+.container .rowone .onesix{
+    background-color: brown;
+    width: 200px;
+    height: 33%;
+    margin-left: -15px;
+    float: right;
+    
 }

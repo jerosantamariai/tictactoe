@@ -14,14 +14,28 @@ import 'jquery';
 import 'popper.js';
 import 'bootstrap';
 
+/*      4   5   6
+    1   
+    2  
+    3               */
 
-function TicTacToe(props){
-    return(
-            <div className="container">
-                
+function TicTacToe(props) {
+    return (
+        <div className="container">
+            <div className="header">
+                <h1>Tic Tac Toe in React.js</h1>
             </div>
-            )
-    }
- 
+            <div className="gamespace">
+                <div className="onefour"></div>
+                <div className="onefive"></div>
+                <div className="onesix"></div>
+            </div>
+                
+
+            
+        </div>
+    )
+}
+
 
 ReactDOM.render(<TicTacToe />, document.querySelector("#root"));
