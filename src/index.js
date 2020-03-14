@@ -26,9 +26,22 @@ function TicTacToe(props) {
                 <h1>Tic Tac Toe in React.js</h1>
             </div>
             <div className="gamespace">
-                <div className="onefour"></div>
-                <div className="onefive"></div>
-                <div className="onesix"></div>
+                <div className="rowone" id="justone">
+                    <div className="colfour" id="onefour"></div>
+                    <div className="colfive" id="onefive"></div>
+                    <div className="colsix"id="onesix"></div>
+                </div>
+                <div className="rowtwo" id="justtwo">
+                    <div className="colfour" id="twofour"></div>
+                    <div className="colfive" id="twofive"></div>
+                    <div className="colsix"id="twosix"></div>
+                </div>
+                <div className="rowthree" id="justthree">
+                    <div className="colfour" id="threefour"></div>
+                    <div className="colfive" id="threefive"></div>
+                    <div className="colsix"id="threesix"></div>
+                </div>
+
             </div>
                 
 
