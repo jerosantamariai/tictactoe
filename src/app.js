@@ -102,9 +102,9 @@ class TicTacToe extends React.Component {
   goForm(e) {
     e.preventDefault();
     if (document.getElementById("input1").value === "" || document.getElementById("input2").value === "") {
-      alert("Fill inputs!")
+      alert("Ingresa tu nombre!")
     } else if (document.getElementById("input1").value === document.getElementById("input2").value) {
-      alert("The names is the same!")
+      alert("No hagas trampa! No puedes jugar contra ti mismo!")
     }
     else {
       this.setState({ visual: 2 });

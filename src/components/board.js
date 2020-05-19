@@ -9,9 +9,9 @@ const styleChoosePlayer = {
 }
 
 const styleButtonX = {
-  backgroundColor: '#3E3732',
+  backgroundColor: 'rgb(50,50,50)',
   border: "none",
-  color: "yellow",
+  color: "rgb(150,150,150)",
   marginTop: "10px",
   marginLeft: "50px",
   width: "30%",
@@ -19,9 +19,9 @@ const styleButtonX = {
 }
 
 const styleButtonO = {
-  backgroundColor: '#3E3732',
+  backgroundColor: 'rgb(50,50,50)',
   border: "none",
-  color: "blue",
+  color: "rgb(150,150,150)",
   width: "30%",
   marginTop: "10px",
   marginLeft: "10px"
